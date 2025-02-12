@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    color: black;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sections */
+.container {
+    width: 600px;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Tag customization */
+.title {
+    font-weight: 800;
+}
+
+.subtitle {
+    font-weight: 200;
+}
+
+/* Buttons */
+.img-icon {
+    width: 32px;
+}
+
+.img-link {
+    width: 64px;
+}
+
+.img-action {
+    width: 16px;
+    cursor: pointer;
+}
+
+.button-card {
+    width: 150px;
+    height: 64px;
+    padding: 10px;
+    background: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
